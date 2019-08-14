@@ -1,0 +1,18 @@
+{
+  "name": "userscripts-and-userstyles",
+  "version": "1.0.0",
+  "scripts": {
+    "build--imdb-to-rarbg.to": "node imdb-to-rarbg.to.builder.js"
+  },
+  "dependencies": {
+    "uglify-js": "^3.6.0",
+    "uglifycss": "0.0.29",
+    "userscript-meta": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.31",
+    "@types/node": "^12.7.1",
+    "@types/uglify-js": "^3.0.4",
+    "@types/uglifycss": "0.0.5"
+  }
+}
