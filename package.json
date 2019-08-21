@@ -2,7 +2,8 @@
   "name": "userscripts-and-userstyles",
   "version": "1.0.0",
   "scripts": {
-    "build--imdb-to-rarbg.to": "node imdb-to-rarbg.to.builder.js"
+    "build--imdb-to-rarbg.to": "node imdb-to-rarbg.to.builder.js",
+    "build--combo-epicgames": "node combo-epicgames.builder.js"
   },
   "dependencies": {
     "uglify-js": "^3.6.0",
