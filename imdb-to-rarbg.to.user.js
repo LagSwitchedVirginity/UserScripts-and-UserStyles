@@ -1,8 +1,8 @@
 // ==UserScript==
 // @author LagSwitchedVirginity
-// @namespace https://github.com/NavyCo/UserScripts-and-UserStyles
-// @homepage https://github.com/NavyCo/UserScripts-and-UserStyles
-// @supportURL https://github.com/NavyCo/UserScripts-and-UserStyles
+// @namespace https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
+// @homepage https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
+// @supportURL https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
 // @updateURL https://raw.githubusercontent.com/NavyCo/UserScripts-and-UserStyles/master/imdb-to-rarbg.to.user.js
 // @downloadURL https://raw.githubusercontent.com/NavyCo/UserScripts-and-UserStyles/master/imdb-to-rarbg.to.user.js
 // @name IMDB to RARBG.to
