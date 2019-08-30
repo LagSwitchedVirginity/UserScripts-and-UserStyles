@@ -11,7 +11,6 @@ Should add a button to an IMDB page to go to the RARBG.to piracy page.
 - Requested by Charlie on Discord.
 
 # Combos
-## \[Combo\] [EpicGames.com](combo-epicgames.user.js) <sub>[[GreasyFork.org](https://greasyfork.org/en/scripts/389598-combo-epicgames)]</sub>
-## \[Combo\] [Netflix.com](combo-netflix.user.js) <sub>[[GreasyFork.org](https://greasyfork.org/en/scripts/389599-combo-netflix)]</sub>
-## \[Combo\] [Spotify.com](combo-spotify.user.js) [no GreasyFork.org]
-[![https://i.imgur.com/O1kzeHF.png](https://i.imgur.com/O1kzeHF.png)](https://i.imgur.com/O1kzeHF.png)
+## \[Combo\] [EpicGames.com](combo-epicgames.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389598-combo-epicgames)\]</sub>
+## \[Combo\] [Netflix.com](combo-netflix.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389599-combo-netflix)\]</sub>
+## \[Combo\] [Spotify.com](combo-spotify.user.js) <sub>\[[No GreasyFork.org](https://i.imgur.com/O1kzeHF.png)\]</sub>
