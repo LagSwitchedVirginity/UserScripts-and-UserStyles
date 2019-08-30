@@ -7,17 +7,15 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-epicgames.user.js
 // @name [COMBO] EpicGames
 // @description Created for Hydro
-// @version 1566425472
+// @version 1567206494
 // @match *://accounts.epicgames.com/log*
 // @run-at document-idle
 // ==/UserScript==
 
 function e() {
-    document.querySelector("#epic_username").onkeyup = function(e, o) {
-        console.log([ e, o ]);
-        var u = /((?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?)):(.*)/gi;
-        console.log(u.test(this.value)), this.value.replace(u, function(e, o, u) {
-            document.querySelector("#epic_username").value = o, document.querySelector("#password").value = u;
+    document.querySelector("#epic_username").onkeyup = function(e, u) {
+        this.value.replace(/((?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?)):(.*)/gi, function(e, u, o) {
+            document.querySelector("#epic_username").value = u, document.querySelector("#password").value = o;
         });
     };
 }

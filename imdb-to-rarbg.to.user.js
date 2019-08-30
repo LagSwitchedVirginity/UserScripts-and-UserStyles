@@ -7,7 +7,7 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/imdb-to-rarbg.to.user.js
 // @name IMDB to RARBG.to
 // @description Should add a button to an IMDB page to go to the RARBG.to piracy page. https://i.imgur.com/U0Xg1T3.png - Requested by Charlie on Discord.
-// @version 1566148330
+// @version 1567206488
 // @match *://www.imdb.com/title/*
 // @match *://imdb.com/title/*
 // @run-at document-end

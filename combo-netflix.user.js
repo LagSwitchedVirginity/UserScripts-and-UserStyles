@@ -7,16 +7,15 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-netflix.user.js
 // @name [COMBO] Netflix
 // @description This is for the classic <user>:<pass> combo
-// @version 1567204653
+// @version 1567206492
 // @match *://www.netflix.com/login*
 // @run-at document-idle
 // ==/UserScript==
 
 function e() {
-    document.querySelector(".hybrid-login-form-main form input.nfTextField#id_userLoginId").onkeyup = function(e, o) {
-        console.log([ e, o ]);
-        this.value.replace(/((?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?)|\d+):(.*)/gi, function(e, o, n) {
-            document.querySelector(".hybrid-login-form-main form input.nfTextField#id_userLoginId").value = o, 
+    document.querySelector(".hybrid-login-form-main form input.nfTextField#id_userLoginId").onkeyup = function(e, i) {
+        this.value.replace(/((?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?)|\d+):(.*)/gi, function(e, i, n) {
+            document.querySelector(".hybrid-login-form-main form input.nfTextField#id_userLoginId").value = i, 
             document.querySelector(".hybrid-login-form-main form input.nfTextField#id_password").value = n;
         });
     };

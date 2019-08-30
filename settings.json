@@ -1,0 +1,13 @@
+{
+  "opts_uglifyjs": {
+    "mangle": {
+      "toplevel": true
+    },
+    "compress": {
+      "toplevel": true
+    },
+    "output": {
+      "beautify": true
+    }
+  }
+}
