@@ -18,9 +18,6 @@ let userscriptMeta = userscript.stringify({
     description: 'This is for the classic <user>:<pass> combo',
     // @ts-ignore
     version: Math.floor(new Date() / 1000),
-    // match: [
-    //     '*://accounts.spotify.com/en/login/*',
-    // ],
     include: [
         "/^https?:\\/\\/accounts\\.spotify\\.[\\w\\.]+\\/[\\w-]+\\/login.*$/"
     ],
