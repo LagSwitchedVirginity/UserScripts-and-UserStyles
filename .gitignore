@@ -4,9 +4,9 @@
 *.builder.js
 *.source.js
 # TypeScript
-*.version.ts
-*.builder.ts
-*.source.ts
+#*.version.ts
+#*.builder.ts
+#*.source.ts
 
 ### Node_Modules
 node_modules

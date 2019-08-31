@@ -2,10 +2,10 @@
   "name": "userscripts-and-userstyles",
   "version": "1.0.0",
   "scripts": {
-    "build--imdb-to-rarbg.to": "node imdb-to-rarbg.to.builder.js",
-    "build--combo-epicgames": "node combo-epicgames.builder.js",
-    "build--combo-netflix": "node combo-netflix.builder.js",
-    "build--combo-spotify": "node combo-spotify.builder.js"
+    "build--imdb-to-rarbg.to": "node backup-source code/imdb-to-rarbg.to.builder.js",
+    "build--combo-epicgames": "node backup-source code/combo-epicgames.builder.js",
+    "build--combo-netflix": "node backup-source code/combo-netflix.builder.js",
+    "build--combo-spotify": "node backup-source code/combo-spotify.builder.js"
   },
   "dependencies": {
     "uglify-js": "^3.6.0",
