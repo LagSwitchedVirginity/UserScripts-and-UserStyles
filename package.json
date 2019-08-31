@@ -6,7 +6,8 @@
     "build--combo-epicgames": "node backup-sourcecode/combo-epicgames.builder.js",
     "build--combo-netflix": "node backup-sourcecode/combo-netflix.builder.js",
     "build--combo-spotify": "node backup-sourcecode/combo-spotify.builder.js",
-    "build--combo-origin": "node backup-sourcecode/combo-origin.builder.js"
+    "build--combo-origin": "node backup-sourcecode/combo-origin.builder.js",
+    "build--combo-hulu": "node backup-sourcecode/combo-hulu.builder.js"
   },
   "dependencies": {
     "uglify-js": "^3.6.0",
