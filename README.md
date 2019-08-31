@@ -1,5 +1,5 @@
 # **_Important_**
-Some scripts will inevidibly not work due to something called a **C**ontent **S**ecurity **P**olicy.
+Some scripts will inevitably not work due to something called a **C**ontent **S**ecurity **P**olicy.
 I do not suggest you to disable it however if you truly want to use scripts such as [combo-spotify.user.js](combo-spotify.user.js) you will need to disable it.
 * On **Firefox** do the following to get around this issue.
   - about:config -> security.csp.enable false.
