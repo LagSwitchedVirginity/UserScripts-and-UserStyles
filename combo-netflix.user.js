@@ -7,16 +7,17 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-netflix.user.js
 // @name [COMBO] Netflix
 // @description This is for the classic <user>:<pass> combo
-// @version 1567206492
+// @version 1568336200
 // @match *://www.netflix.com/login*
 // @run-at document-idle
 // ==/UserScript==
 
 function e() {
     document.querySelector(".hybrid-login-form-main form input.nfTextField#id_userLoginId").onkeyup = function(e, i) {
-        this.value.replace(/((?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?)|\d+):(.*)/gi, function(e, i, n) {
-            document.querySelector(".hybrid-login-form-main form input.nfTextField#id_userLoginId").value = i, 
-            document.querySelector(".hybrid-login-form-main form input.nfTextField#id_password").value = n;
+        this.value.replace(/(.*):(.*)/gi, function(e, i, n) {
+            var o = e.split(":"), t = o.shift(), r = o.join(":");
+            document.querySelector(".hybrid-login-form-main form input.nfTextField#id_userLoginId").value = t, 
+            document.querySelector(".hybrid-login-form-main form input.nfTextField#id_password").value = r;
         });
     };
 }

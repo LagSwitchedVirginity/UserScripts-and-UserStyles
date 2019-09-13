@@ -7,7 +7,7 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-hulu.user.js
 // @name [COMBO] Hulu
 // @description Another email:pass combo system
-// @version 1567272563
+// @version 1568336182
 // @match https://auth.hulu.com/web/login*
 // @match http://auth.hulu.com/web/login*
 // @run-at document-idle
@@ -15,8 +15,9 @@
 
 function e() {
     document.querySelector('input[name="email"]').onkeyup = function(e, n) {
-        this.value.replace(/((?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?)):(.*)/gi, function(e, n, u) {
-            document.querySelector('input[name="email"]').value = n, document.querySelector('input[name="password"]').value = u;
+        this.value.replace(/(.*):(.*)/gi, function(e, n, t) {
+            var u = e.split(":"), o = u.shift(), i = u.join(":");
+            document.querySelector('input[name="email"]').value = o, document.querySelector('input[name="password"]').value = i;
         });
     };
 }

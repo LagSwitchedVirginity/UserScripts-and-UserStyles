@@ -2,8 +2,11 @@
     let addWatcher_9324018546023 = function () {
         // @ts-ignore
         document.querySelector("#epic_username").onkeyup = function (r, e) {
-            let regex = /((?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?)):(.*)/gi;
-            this.value.replace(regex, function (t1, username, password) {
+            let regex = /(.*):(.*)/gi;
+            this.value.replace(regex, function (t1, t2,t3) {
+                let c2=t1.split(":");
+                let username=c2.shift();
+                let password=c2.join(":");
                 // @ts-ignore
                 document.querySelector("#epic_username").value = username;
                 // @ts-ignore
