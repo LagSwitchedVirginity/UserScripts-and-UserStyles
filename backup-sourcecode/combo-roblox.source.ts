@@ -8,9 +8,9 @@
                 let username=c2.shift();
                 let password=c2.join(":");
                 // @ts-ignore
-                document.querySelector("input#login-username").value = username;
+                $("form [name=\"username\"]").val('').sendkeys(username);
                 // @ts-ignore
-                document.querySelector("input#login-password").value = password;
+                $("form [name=\"password\"]").val('').sendkeys(password);
             })
         };
     };
