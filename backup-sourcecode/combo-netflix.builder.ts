@@ -21,6 +21,11 @@ let userscriptMeta = userscript.stringify({
     match: [
         '*://www.netflix.com/login*',
     ],
+    require: [
+        'https://code.jquery.com/jquery-3.4.1.min.js',
+        'https://www.gitcdn.xyz/repo/dwachss/bililiteRange/master/bililiteRange.js',
+        'https://www.gitcdn.xyz/repo/dwachss/bililiteRange/master/jquery.sendkeys.js'
+    ],
     "run-at": "document-idle",
 });
 let uglifyCode = uglifyjs.minify(fs.readFileSync(`${fil}.source.js`).toString(), require("./settings").opts_uglifyjs);
