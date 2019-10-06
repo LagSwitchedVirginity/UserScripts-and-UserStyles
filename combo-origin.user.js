@@ -7,7 +7,7 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-origin.user.js
 // @name [COMBO] Origin
 // @description This is for the classic <user>:<pass> combo
-// @version 1568336191
+// @version 1570339123
 // @match https://signin.ea.com/p/originX/login*
 // @match http://signin.ea.com/p/originX/login*
 // @run-at document-idle
@@ -15,9 +15,9 @@
 
 function e() {
     document.querySelector("#email").onkeyup = function(e, o) {
-        this.value.replace(/(.*):(.*)/gi, function(e, o, t) {
-            var u = e.split(":"), n = u.shift(), c = u.join(":");
-            document.querySelector("#email").value = n, document.querySelector("#password").value = c;
+        this.value.replace(/((?:(?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?))|[\w\d]+):(.*)/gi, function(e, o, t) {
+            var u = e.split(":"), n = u.shift(), a = u.join(":");
+            document.querySelector("#email").value = n, document.querySelector("#password").value = a;
         });
     };
 }

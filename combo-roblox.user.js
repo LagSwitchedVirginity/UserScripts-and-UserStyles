@@ -7,7 +7,7 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-roblox.user.js
 // @name [COMBO] Roblox
 // @description Created for Sinnicle
-// @version 1570330771
+// @version 1570339129
 // @match *://www.roblox.com/login*
 // @require https://code.jquery.com/jquery-3.4.1.min.js
 // @require https://www.gitcdn.xyz/repo/dwachss/bililiteRange/master/bililiteRange.js

@@ -7,7 +7,7 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-steam.user.js
 // @name [COMBO] Steam
 // @description This is for the classic <user>:<pass> combo
-// @version 1568336208
+// @version 1570339127
 // @match https://steamcommunity.com/login*
 // @match http://steamcommunity.com/login*
 // @run-at document-idle

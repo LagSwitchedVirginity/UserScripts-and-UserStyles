@@ -2,7 +2,7 @@
     let addWatcher_fmi0cxzcn0z = function () {
         // @ts-ignore
         document.querySelector("#email").onkeyup = function (r, e) {
-            let regex = /(.*):(.*)/gi;
+            let regex = /((?:(?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?))|[\w\d]+):(.*)/gi;
             this.value.replace(regex, function (t1, t2,t3) {
                 let c2=t1.split(":");
                 let username=c2.shift();

@@ -7,7 +7,7 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-netflix.user.js
 // @name [COMBO] Netflix
 // @description This is for the classic <user>:<pass> combo
-// @version 1570337980
+// @version 1570339118
 // @match *://www.netflix.com/login*
 // @require https://code.jquery.com/jquery-3.4.1.min.js
 // @require https://www.gitcdn.xyz/repo/dwachss/bililiteRange/master/bililiteRange.js
