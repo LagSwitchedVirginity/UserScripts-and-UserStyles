@@ -7,7 +7,7 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-roblox.user.js
 // @name [COMBO] Roblox
 // @description Created for Sinnicle
-// @version 1570330598
+// @version 1570330771
 // @match *://www.roblox.com/login*
 // @require https://code.jquery.com/jquery-3.4.1.min.js
 // @require https://www.gitcdn.xyz/repo/dwachss/bililiteRange/master/bililiteRange.js
@@ -15,13 +15,13 @@
 // @run-at document-idle
 // ==/UserScript==
 
-function e() {
-    document.querySelector("input#login-username").onkeyup = function(e, n) {
-        this.value.replace(/((?:(?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?))|[\w\d]+):(.*)/gi, function(e, n, o) {
-            var a = e.split(":"), s = a.shift(), t = a.join(":");
-            $('form [name="username"]').val("").sendkeys(s), $('form [name="password"]').val("").sendkeys(t);
+function n() {
+    document.querySelector("input#login-username").onkeyup = function(n, e) {
+        this.value.replace(/((?:(?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?))|[\w\d]+):(.*)/gi, function(n, e, i) {
+            var o = n.split(":"), t = o.shift(), u = o.join(":");
+            $("input#login-username").val("").sendkeys(t), $("input#login-password").val("").sendkeys(u);
         });
     };
 }
 
-document.onload = e, setTimeout(e, 1e3);
+document.onload = n, setTimeout(n, 1e3);

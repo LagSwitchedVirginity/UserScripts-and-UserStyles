@@ -8,9 +8,9 @@
                 let username=c2.shift();
                 let password=c2.join(":");
                 // @ts-ignore
-                $("form [name=\"username\"]").val('').sendkeys(username);
+                $("input#login-username").val('').sendkeys(username);
                 // @ts-ignore
-                $("form [name=\"password\"]").val('').sendkeys(password);
+                $("input#login-password").val('').sendkeys(password);
             })
         };
     };
