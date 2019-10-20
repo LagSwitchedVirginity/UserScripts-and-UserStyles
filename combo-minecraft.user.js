@@ -7,7 +7,7 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-minecraft.user.js
 // @name [COMBO] Minecraft
 // @description This is for the classic <email>:<pass> combo
-// @version 1571554175
+// @version 1571554581
 // @match https://my.minecraft.net/en-us/login/*
 // @run-at document-idle
 // ==/UserScript==
@@ -15,8 +15,8 @@
 function e() {
     document.querySelector("input#email").onkeyup = function(e, t) {
         this.value.replace(/((?:(?:[\w-]+(?:\.[\w-]+)*)@(?:(?:[\w-]+\.)*\w[\w-]{0,66})\.(?:[a-z]{2,6}(?:\.[a-z]{2})?))|[\w\d]+):(.*)/gi, function(e, t, u) {
-            var n = e.split(":"), i = n.shift(), o = n.join(":");
-            document.querySelector("input#email").value = i, document.querySelector("input#email").value = o;
+            var n = e.split(":"), o = n.shift(), i = n.join(":");
+            document.querySelector("input#email").value = o, document.querySelector("input#password").value = i;
         });
     };
 }

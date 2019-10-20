@@ -10,7 +10,7 @@
                 // @ts-ignore
                 document.querySelector("input#email").value=username;
                 // @ts-ignore
-                document.querySelector("input#email").value=password;
+                document.querySelector("input#password").value=password;
             })
         };
     };
