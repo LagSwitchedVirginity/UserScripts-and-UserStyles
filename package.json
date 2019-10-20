@@ -10,7 +10,7 @@
     "build--combo-hulu": "node backup-sourcecode/combo-hulu.builder.js",
     "build--combo-steam": "node backup-sourcecode/combo-steam.builder.js",
     "build--combo-roblox": "node backup-sourcecode/combo-roblox.builder.js",
-    "build--combo-minecraft": "node backup-sourcecode/combo-minecraft.builder.js"
+    "build--combo-minecraft": "node combo-minecraft.builder.js"
   },
   "dependencies": {
     "uglify-js": "^3.6.0",
