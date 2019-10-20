@@ -18,3 +18,4 @@ Should add a button to an IMDB page to go to the RARBG.to piracy page.
 ## \[Combo\] [Hulu.com](combo-hulu.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389616-combo-hulu)\]</sub>
 ## \[Combo\] [Steam](combo-steam.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/390814-combo-steam)\]</sub>
 ## \[Combo\] [Roblox](combo-roblox.user.js) <sub>\[No GreasyFork.org\]</sub>
+## \[Combo\] [Minecraft](combo-minecraft.user.js) <sub>\[No GreasyFork.org\]</sub>
