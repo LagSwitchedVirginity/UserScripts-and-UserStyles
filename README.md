@@ -12,9 +12,9 @@ Should add a button to an IMDB page to go to the RARBG.to piracy page.
 
 # Combos
 ## \[Combo\] [EpicGames.com](combo-epicgames.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389598-combo-epicgames)\]</sub>
-## \[Combo\] [Netflix.com](combo-netflix.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389599-combo-netflix)\]</sub>
-## \[Combo\] [Spotify.com](combo-spotify.user.js) <sub>\[[No GreasyFork.org](https://i.imgur.com/O1kzeHF.png)\]</sub>
-## \[Combo\] [Origin.com](combo-origin.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389600-combo-origin)\]</sub>
 ## \[Combo\] [Hulu.com](combo-hulu.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389616-combo-hulu)\]</sub>
-## \[Combo\] [Steam](combo-steam.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/390814-combo-steam)\]</sub>
+## \[Combo\] [Netflix.com](combo-netflix.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389599-combo-netflix)\]</sub>
+## \[Combo\] [Origin.com](combo-origin.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389600-combo-origin)\]</sub>
 ## \[Combo\] [Roblox](combo-roblox.user.js) <sub>\[No GreasyFork.org\]</sub>
+## \[Combo\] [Spotify.com](combo-spotify.user.js) <sub>\[[No GreasyFork.org](https://i.imgur.com/O1kzeHF.png)\]</sub>
+## \[Combo\] [Steam](combo-steam.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/390814-combo-steam)\]</sub>
