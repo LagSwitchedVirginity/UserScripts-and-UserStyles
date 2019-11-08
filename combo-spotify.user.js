@@ -7,8 +7,9 @@
 // @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-spotify.user.js
 // @name [COMBO] Spotify
 // @description This is for the classic <user>:<pass> combo
-// @version 1570339121
-// @include /^https?:\/\/accounts\.spotify\.[\w\.]+\/[\w-]+\/login.*$/
+// @version 1573254020
+// @include /^https:\/\/accounts\.spotify\.[\w\.]+\/[\w-]+\/login*/
+// @include /^https:\/\/accounts\.spotify\.[\w\.]+\/login*/
 // @require https://code.jquery.com/jquery-3.4.1.min.js
 // @require https://www.gitcdn.xyz/repo/dwachss/bililiteRange/master/bililiteRange.js
 // @require https://www.gitcdn.xyz/repo/dwachss/bililiteRange/master/jquery.sendkeys.js

@@ -19,7 +19,8 @@ let userscriptMeta = userscript.stringify({
     // @ts-ignore
     version: Math.floor(new Date() / 1000),
     include: [
-        "/^https?:\\/\\/accounts\\.spotify\\.[\\w\\.]+\\/[\\w-]+\\/login.*$/"
+        "/^https:\\/\\/accounts\\.spotify\\.[\\w\\.]+\\/[\\w-]+\\/login*/",
+        "/^https:\\/\\/accounts\\.spotify\\.[\\w\\.]+\\/login*/"
     ],
     require: [
         'https://code.jquery.com/jquery-3.4.1.min.js',

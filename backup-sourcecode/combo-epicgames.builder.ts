@@ -19,7 +19,8 @@ let userscriptMeta = userscript.stringify({
     // @ts-ignore
     version: Math.floor(new Date() / 1000),
     match: [
-        '*://accounts.epicgames.com/log*',
+        "https://accounts.epicgames.com/log*",
+        "https://www.epicgames.com/id/log*",
     ],
     "run-at": "document-idle",
 });
