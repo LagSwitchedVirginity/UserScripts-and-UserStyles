@@ -12,14 +12,33 @@
 // @run-at document-end
 // ==/UserScript==
 
+var defaultDomain = "yourDomainHere.com";
+
 /*
 * This is terribly coded, @ me if you want, but this was coded to help out clients visualize and stop complaining about "but it says metatags.io!"
 * */
 
-unsafeWindow.updateDomain = function (dom) {
+var updateDomain = function (dom) {
     var temp_url = new URL("https://a");
     temp_url.host = dom;
     document.querySelectorAll(".js-preview-domain").forEach(function (e) {
         e.textContent = temp_url.toString();
     });
 };
+
+function addCustomDomainInput() {
+    document.querySelector(".nav-search").innerHTML += "<input class=\"\" type=\"text\" placeholder=\"custom domain\" style=\"margin-left: 15px;\">";
+    var htmlInputElement = document.createElement("input");
+    htmlInputElement.className = "nav-search__input c_domain";
+    htmlInputElement.type = "text";
+    htmlInputElement.placeholder = "custom domain";
+    htmlInputElement.style.marginLeft = "15px";
+    htmlInputElement.addEventListener("change",function () {
+        updateDomain(this.value);
+    })
+}
+
+addCustomDomainInput();
+updateDomain(defaultDomain);
+
+unsafeWindow.updateDomain = updateDomain;
