@@ -16,6 +16,11 @@ Adds a function named `updateDomain` to metatags.io, that does this:
 | [![https://i.imgur.com/MxAQlSF.gif](https://i.imgur.com/MxAQlSF.gif)](https://i.imgur.com/MxAQlSF.gif) | [![https://i.imgur.com/aNkpMYW.gif](https://i.imgur.com/aNkpMYW.gif)](https://i.imgur.com/aNkpMYW.gif) |
 |:-:|:-:|
 
+## [Add 9Anime.to buttons to MyAnimeList](scripts_other/MyAnimeList-2-9Anime.to.user.js)
+Does what the title suggests!
+| [![https://i.imgur.com/GKlgA44.png](https://i.imgur.com/GKlgA44.png)](https://i.imgur.com/GKlgA44.png) | [![https://i.imgur.com/O54HoxU.png](https://i.imgur.com/O54HoxU.png)](https://i.imgur.com/O54HoxU.png) |
+|:-:|:-:|
+
 # Combos
 ## \[Combo\] [EpicGames.com](scripts_combos/combo-epicgames.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389598-combo-epicgames)\]</sub>
 ## \[Combo\] [Hulu.com](scripts_combos/combo-hulu.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389616-combo-hulu)\]</sub>
