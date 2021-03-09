@@ -3,8 +3,8 @@
 // @namespace https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
 // @homepage https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
 // @supportURL https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
-// @updateURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/scripts_combos/combo-epicgames.user.js
-// @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/scripts_combos/combo-epicgames.user.js
+// @updateURL https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles/raw/master/scripts_combos/combo-epicgames.user.js
+// @downloadURL https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles/raw/master/scripts_combos/combo-epicgames.user.js
 // @name [COMBO] EpicGames
 // @description Created for Hydro
 // @version 1573253756
