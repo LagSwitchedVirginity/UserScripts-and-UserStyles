@@ -1,43 +1,4 @@
 @-moz-document domain("discord.com") {
-    /*
-    @function strip-unit($number) {
-      @if type-of($number) == 'number' and not unitless($number) {
-        @return $number / ($number * 0 + 1);
-      }
-
-      @return $number;
-    }
-    #undiscord {
-        $w: 75%;
-        $wl: (100% - $w) / 2;
-        width: $w;
-        //right: $wl;
-        $h: 5%;
-        bottom: $h;
-        top: $h;
-        z-index: 99999;
-        // Unsorted
-        max-width: 780px;
-        position: relative;
-        margin-left: auto;
-        max-height: strip-unit(100%-($h*2))+vh;
-        margin-right: auto;
-        .logarea {
-            &::-webkit-scrollbar {
-                width: 1em;
-                height: 1em;
-            }
-
-            &::-webkit-scrollbar-thumb {
-                background-color: rgba(255,255,255,.1);
-                border-radius: 0px;
-                &:hover {
-                    background: rgba(255,255,255,.2);
-                }
-            }
-        }
-    }
-    */
     #undiscord {
         width: 75%;
         bottom: 5%;
