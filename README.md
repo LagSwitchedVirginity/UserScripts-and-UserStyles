@@ -13,8 +13,8 @@ Should add a button to an IMDB page to go to the RARBG.to piracy page.
 
 ## [updateDomain function to metatags.io](scripts_other/metatags.io.user.js)
 Adds a function named `updateDomain` to metatags.io, that does this:
-[![https://i.imgur.com/MxAQlSF.gif](https://i.imgur.com/MxAQlSF.gif)](https://i.imgur.com/MxAQlSF.gif)
-[![https://i.imgur.com/aNkpMYW.gif](https://i.imgur.com/aNkpMYW.gif)](https://i.imgur.com/aNkpMYW.gif)
+| [![https://i.imgur.com/MxAQlSF.gif](https://i.imgur.com/MxAQlSF.gif)](https://i.imgur.com/MxAQlSF.gif) | [![https://i.imgur.com/aNkpMYW.gif](https://i.imgur.com/aNkpMYW.gif)](https://i.imgur.com/aNkpMYW.gif) |
+|:-:|:-:|
 
 # Combos
 ## \[Combo\] [EpicGames.com](scripts_combos/combo-epicgames.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389598-combo-epicgames)\]</sub>
