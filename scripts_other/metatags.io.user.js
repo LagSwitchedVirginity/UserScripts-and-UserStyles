@@ -3,8 +3,6 @@
 // @namespace https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
 // @homepage https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
 // @supportURL https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
-// @updateURL https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles/raw/master/scripts_combos/metatags.io.user.js
-// @downloadURL https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles/raw/master/scripts_combos/metatags.io.user.js
 // @name Title Function Metatags.io
 // @description Adds a function to the JS Console named updateDomain(string) that allows you to change the preview domain.
 // @version 1615248688512

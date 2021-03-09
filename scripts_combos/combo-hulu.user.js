@@ -3,8 +3,6 @@
 // @namespace https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
 // @homepage https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
 // @supportURL https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
-// @updateURL https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles/raw/master/scripts_combos/combo-hulu.user.js
-// @downloadURL https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles/raw/master/scripts_combos/combo-hulu.user.js
 // @name [COMBO] Hulu
 // @description Another email:pass combo system
 // @version 1570339125
