@@ -3,8 +3,8 @@
 // @namespace https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
 // @homepage https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
 // @supportURL https://github.com/LagSwitchedVirginity/UserScripts-and-UserStyles
-// @updateURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-roblox.user.js
-// @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/combo-roblox.user.js
+// @updateURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/scripts_combos/combo-roblox.user.js
+// @downloadURL https://raw.githubusercontent.com/LagSwitchedVirginity/UserScripts-and-UserStyles/master/scripts_combos/combo-roblox.user.js
 // @name [COMBO] Roblox
 // @description Created for Sinnicle
 // @version 1570339129
