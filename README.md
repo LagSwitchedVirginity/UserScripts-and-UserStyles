@@ -11,7 +11,7 @@ Should add a button to an IMDB page to go to the RARBG.to piracy page.
 [![https://i.imgur.com/U0Xg1T3.png](https://i.imgur.com/U0Xg1T3.png)](https://i.imgur.com/U0Xg1T3.png)
 - Requested by Charlie on Discord.
 
-## [updateDomain function to metatags.io]
+## [updateDomain function to metatags.io](scripts_other/metatags.io.user.js)
 Adds a function named `updateDomain` to metatags.io, that does this:
 [![https://i.imgur.com/MxAQlSF.gif](https://i.imgur.com/MxAQlSF.gif)](https://i.imgur.com/MxAQlSF.gif)
 
