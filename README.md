@@ -4,6 +4,10 @@ I do not suggest you to disable it however if you truly want to use scripts such
 * On **Firefox** do the following to get around this issue.
   - about:config -> security.csp.enable false.
 
+###### Update - 3/8/2021
+I will not be uploading to [GreasyFork.org](https://greasyfork.org/) nor dealing with update urls due to the fact I have no need personally, nor understanding as to why it no longer works the way it used to.
+
+
 # Other
 
 ## [IMDB to RARBG.to](scripts_other/imdb-to-rarbg.to.user.js) <sub>[[GreasyFork.org](https://greasyfork.org/en/scripts/388948-imdb-to-rarbg-to)]</sub>
