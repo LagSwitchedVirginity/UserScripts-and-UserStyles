@@ -4,11 +4,16 @@ I do not suggest you to disable it however if you truly want to use scripts such
 * On **Firefox** do the following to get around this issue.
   - about:config -> security.csp.enable false.
 
-# UserScripts-Styles
+# Other
+
 ## [IMDB to RARBG.to](scripts_other/imdb-to-rarbg.to.user.js) <sub>[[GreasyFork.org](https://greasyfork.org/en/scripts/388948-imdb-to-rarbg-to)]</sub>
 Should add a button to an IMDB page to go to the RARBG.to piracy page.
 [![https://i.imgur.com/U0Xg1T3.png](https://i.imgur.com/U0Xg1T3.png)](https://i.imgur.com/U0Xg1T3.png)
 - Requested by Charlie on Discord.
+
+## [updateDomain function to metatags.io]
+Adds a function named `updateDomain` to metatags.io, that does this:
+[![https://i.imgur.com/MxAQlSF.gif](https://i.imgur.com/MxAQlSF.gif)](https://i.imgur.com/MxAQlSF.gif)
 
 # Combos
 ## \[Combo\] [EpicGames.com](scripts_combos/combo-epicgames.user.js) <sub>\[[GreasyFork.org](https://greasyfork.org/en/scripts/389598-combo-epicgames)\]</sub>
