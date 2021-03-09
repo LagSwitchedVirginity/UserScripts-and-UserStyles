@@ -10,6 +10,13 @@ I will not be uploading to [GreasyFork.org](https://greasyfork.org/) nor dealing
 
 # Other
 
+## [Undiscord restyle](styles_discord/undiscord.user.css)
+[Undiscord for those interested](https://github.com/victornpb/deleteDiscordMessages)
+
+|                                                Original                                                |                                                 Restyle                                                |
+|:------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------:|
+| [![https://i.imgur.com/THsB2tL.png](https://i.imgur.com/THsB2tL.png)](https://i.imgur.com/THsB2tL.png) | [![https://i.imgur.com/X3ZUyaf.png](https://i.imgur.com/X3ZUyaf.png)](https://i.imgur.com/X3ZUyaf.png) |
+
 ## [IMDB to RARBG.to](scripts_other/imdb-to-rarbg.to.user.js) <sub>[[GreasyFork.org](https://greasyfork.org/en/scripts/388948-imdb-to-rarbg-to)]</sub>
 Should add a button to an IMDB page to go to the RARBG.to piracy page.
 [![https://i.imgur.com/U0Xg1T3.png](https://i.imgur.com/U0Xg1T3.png)](https://i.imgur.com/U0Xg1T3.png)
